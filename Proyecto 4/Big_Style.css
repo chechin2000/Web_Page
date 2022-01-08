@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@media screen and (min-width: 850px) {
+
+	.mom-container {
+		display: flex;
+		background: #eee;
+		width: 100vw;
+		height: 100vh;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.container {
+		width: 70%;
+		min-width: 700px;
+		min-height: 425px;
+		border-radius: 5%;
+		display: flex;
+	}
+
+	.container__sedans, .container__suvs, .container__luxury {
+		width: 33.3333%;
+		padding: 1.5em;
+		border: none;
+	}
+
+	.container__image {
+		width: 100%;
+	}
+
+	.container__image img {
+		width: 30%;
+	}
+
+	.container__sedans {
+		background: #E38826;
+		border-top-left-radius: 5%;
+		border-bottom-left-radius: 5%;
+	}
+
+	.container__suvs {
+		background: #006970;
+	}
+
+	.container__luxury {
+		background: #004241;
+		border-top-right-radius: 5%;
+		border-bottom-right-radius: 5%;
+	}
+
+	.container__type-of-car {
+		font-size: 1.25em;
+		color: #fff;
+		margin: 25px 0;
+		text-align: left;
+		font-family: 'Big Shoulders Display', cursive;
+	}
+
+	.container__description {
+		font-size: 0.95em;
+		color: #efe8;
+		margin-bottom: 2.5em;
+		line-height: 22px;
+		height: 40%;
+	}
+
+	.container__button{
+		border-radius: 60px;
+		background: #fff;
+		text-align: center;
+		padding: 10px;
+		transition: 0.25s;
+		margin: 15px 0;
+		width: 65%;
+	}
+
+	button {
+		border: none;
+		background: transparent;
+	}
+
+	.button-orange {
+		color: #E38826;
+		font-size: 0.85em;
+	}
+
+	.button-green {
+		color: #006970;
+		font-size: 0.85em;
+	}
+
+	.button-dark_green {
+		color: #004241;
+		font-size: 0.85em;
+	}
+
+	.container__button:hover{
+		background: transparent;
+		cursor: pointer;
+		border: 1px solid #fff;
+	}
+
+	.container__button:hover > button{
+		background: transparent;
+		cursor: pointer;
+		color: #fff;
+	}
+}
